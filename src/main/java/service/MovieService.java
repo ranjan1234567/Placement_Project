@@ -11,9 +11,9 @@ public class MovieService {
 
     /** Adds sample data so the project can be tested immediately. */
     public void loadSampleData() {
-        movies.add(new Movie("M101", "The Last Horizon", "Sci-Fi", 142));
-        movies.add(new Movie("M102", "Midnight Run", "Thriller", 118));
-        movies.add(new Movie("M103", "The Grand Adventure", "Adventure", 130));
+        movies.add(new Movie("M101", "Ramayana Part1", "Mythology", 192));
+        movies.add(new Movie("M102", "Godzilla Minus Zero", "Sci-Fi", 135));
+        movies.add(new Movie("M103", "OM", "Action", 172));
 
         shows.add(new Show("S101", "M101", "PVR Central", "21-Nov-2026 6:30 PM", 220, 20));
         shows.add(new Show("S102", "M102", "INOX City Centre", "21-Nov-2026 8:00 PM", 180, 20));
